@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage>
                     ),
                     MaterialButton(
                       minWidth: 500.0,
-                      height: 500.0,
+                      height: 400.0,
                       color: Colors.transparent,
                       textColor: Colors.white,
 
