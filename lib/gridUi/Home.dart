@@ -12,7 +12,7 @@ class Home extends StatefulWidget {
 
   @override
   void initState() {
-    controller = TabController(length: 2,vsync: this);
+    controller = TabController(length: 1,vsync: this);
     super.initState();
   }
   @override
@@ -36,7 +36,7 @@ class Home extends StatefulWidget {
           indicatorColor: Colors.brown,
           tabs: <Widget>[
             Tab(icon: Icon(Icons.face),),
-            Tab(icon: Icon(Icons.image),),
+//            Tab(icon: Icon(Icons.image),),
           ],
         )
 
